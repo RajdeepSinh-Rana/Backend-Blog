@@ -20,5 +20,5 @@ app.use("/Blog",BlogRouter)
 
 app.listen(process.env.Port,()=>{
     server()
-    console.log(`server is running on port ${process.env.Port}`)
+    console.log(`server is running on port `)
 })
